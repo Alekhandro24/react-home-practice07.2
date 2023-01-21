@@ -18,7 +18,7 @@ export const ListPage = () => {
         </p>
       )}
       {isLoading ? (
-        <b>Загружаем материалы</b>
+        <b>Загружаем материалы!</b>
       ) : (
         <MaterialList items={materials} />
       )}
